@@ -507,3 +507,23 @@ width: 100%;
 .contact form .btn-box.btns .btn {
     cursor:pointer;
 }
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2rem 9%;
+    background-color: var(--second-bg-color);
+}
+.footer-text p {
+    font-size: 1.6rem;
+}
+.footer-iconTop a {
+    position:relative;
+    display: inline-flex;
+    justify-content: center;
+    padding:.8rem;
+    backdrop-filter: var(--main-color);
+}
