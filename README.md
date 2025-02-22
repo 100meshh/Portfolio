@@ -1,3 +1,0 @@
-# Portfolio
-uploading my work
-.

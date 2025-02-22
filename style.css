@@ -1,5 +1,5 @@
  
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +12,20 @@
 }
 
 :root{
-    --bg-color:#081b29;
+    /* --bg-color:#081b29;
     --second-bg-color:#112e42;
     --text-color:#ededed;
-    --main-color:#00abf0;
+    --main-color:#00abf0; */
+
+    /* --bg-color:#0a192f;
+    --second-bg-color:#172a45;
+    --text-color:#ccd6f6;
+    --main-color:#64ffda; */
+    
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:yellow;
+    --main-color:red;
 }
 
 html{
@@ -72,7 +82,7 @@ body{
 #menu-icon{
    position:relative;
    font-size:3.6rem; 
-   cursor:var(--text-color);
+   /* cursor:var(--text-color); */
    cursor:pointer;
    display:none;
 }
@@ -696,7 +706,7 @@ section:nth-child(odd) .animate.scroll ,
 @media (max-width: 850px){
     .animate.home-img{
         width:55%;
-        
+
     }
 }
 
